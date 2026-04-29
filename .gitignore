@@ -2,6 +2,9 @@ data/
 uploads/
 .venv/
 __pycache__/
+.pytest_cache/
+pytest-cache-files-*/
+tmp-test/
 *.pyc
 *.pyo
 .env
@@ -16,7 +19,6 @@ build/
 .idea/
 .gemini/
 .claude/
-tests/
 agents_lineup.svg
 docs/
 goals.py
